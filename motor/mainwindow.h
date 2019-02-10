@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "motor.h"
+#include "joystick.h"
 
 namespace Ui {
 class MainWindow;

@@ -28,12 +28,16 @@ SOURCES += \
         mainwindow.cpp \
     motor.cpp \
     gpio.cpp \
-    main.cpp
+    main.cpp \
+    joystick.cpp \
+    robopet.cpp
 
 HEADERS += \
         mainwindow.h \
     motor.h \
-    gpio.h
+    gpio.h \
+    joystick.h \
+    robopet.h
 
 FORMS += \
         mainwindow.ui

@@ -14,82 +14,6 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="labelPwm">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>30</y>
-      <width>67</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PWM</string>
-    </property>
-   </widget>
-   <widget class="QDoubleSpinBox" name="SpinBoxPwm">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>69</width>
-      <height>26</height>
-     </rect>
-    </property>
-    <property name="maximum">
-     <double>1.000000000000000</double>
-    </property>
-    <property name="singleStep">
-     <double>0.100000000000000</double>
-    </property>
-   </widget>
-   <widget class="QWidget" name="gridLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>20</y>
-      <width>272</width>
-      <height>89</height>
-     </rect>
-    </property>
-    <layout class="QGridLayout" name="gridLayout">
-     <item row="2" column="1">
-      <widget class="QPushButton" name="btnReverse">
-       <property name="text">
-        <string>	reverse</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="1">
-      <widget class="QPushButton" name="btnForward">
-       <property name="text">
-        <string>forward</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QPushButton" name="btnStop">
-       <property name="text">
-        <string>stop</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="2">
-      <widget class="QPushButton" name="btnTurnRight">
-       <property name="text">
-        <string>turn right</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="btnTurnLeft">
-       <property name="text">
-        <string>tuen left</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
    <widget class="QFrame" name="imageFace">
     <property name="geometry">
      <rect>
@@ -106,10 +30,6 @@
      <enum>QFrame::Raised</enum>
     </property>
    </widget>
-   <zorder>imageFace</zorder>
-   <zorder>labelPwm</zorder>
-   <zorder>SpinBoxPwm</zorder>
-   <zorder>gridLayoutWidget</zorder>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>

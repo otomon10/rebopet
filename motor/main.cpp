@@ -1,13 +1,10 @@
-#include <iostream>
 #include <QApplication>
-#include "mainwindow.h"
-#include "gpio.h"
+#include "robopet.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.showFullScreen();
+    RoboPet robopet;
 
     return a.exec();
 }
