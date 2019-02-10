@@ -2,8 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "motor.h"
-#include "joystick.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,8 +17,6 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    Motor *motorL;
-    Motor *motorR;
 };
 
 #endif // MAINWINDOW_H
