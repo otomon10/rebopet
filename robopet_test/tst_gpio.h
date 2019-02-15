@@ -2,7 +2,7 @@
 #define TST_GPIO_H
 
 #include <QTest>
-#include "../motor/gpio.h"
+#include "../robopet/gpio.h"
 
 class TestGpio : public QObject
 {

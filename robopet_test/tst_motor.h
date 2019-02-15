@@ -2,7 +2,7 @@
 #define TESTMOTOR_H
 
 #include <QTest>
-#include "../motor/motor.h"
+#include "../robopet/motor.h"
 
 class TestMotor : public QObject
 {

@@ -7,14 +7,14 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES +=  \
-    ../motor/gpio.cpp \
+    ../robopet/gpio.cpp \
     tst_gpio.cpp \
     main.cpp \
     tst_motor.cpp \
-    ../motor/motor.cpp
+    ../robopet/motor.cpp
 
 HEADERS += \
-    ../motor/gpio.h \
+    ../robopet/gpio.h \
     tst_gpio.h \
     tst_motor.h \
-    ../motor/motor.h
+    ../robopet/motor.h
